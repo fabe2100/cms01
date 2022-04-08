@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 html{
     margin:0 ;
     padding:0;
@@ -86,14 +87,18 @@ footer{
     height: auto;
     width: 100%;
     padding-top: 4px;
-    color: #fff;
+    color: rgb(16, 15, 15);
 }
-.footer-content{
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+.footer-content img{
+    border-radius: 50%;
+    width:20%;
 }
 .footer-content h3{
     font-size: 2.1rem;
@@ -104,9 +109,10 @@ footer{
 .footer-content p{
     max-width: 500px;
     margin: 10px auto;
-    line-height: 28px;
     font-size: 14px;
-    color: white;
+    color: rgb(20, 31, 17);
+    line-height: 0.5em;
+
 }
 body, html {
     height: 100%;
@@ -114,9 +120,68 @@ body, html {
   }
   
   .bg {
-    background-image: url("../images/DSC_0023.jpg");
+    background-image: url("images/DSC_0023.jpg");
       height: 100%; 
+
       background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .bg img{
+      width:100%;
+      margin: 0 auto;
+      justify-content: center;
+      display: flex;
+  }
+  .img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  main h1{
+      font-weight: bold;
+      text-align: center;
+
+  }
+  main p{
+      font-size: 1em;
+      font-weight: bold;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 680px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
   }
