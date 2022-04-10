@@ -338,6 +338,20 @@ text-align: center;
 .container {
   padding: 2px 16px;
 }
+.news1{
+  width: 70%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top:5%;
+  margin: 0 auto;
+  
+}
+.news1 img{
+  width:98%;
+}
+.news{
+  min-height: 300vh;
+}
   
   /* Responsive layout - makes a one column-layout instead of a two-column layout */
   @media (max-width: 680px) {
