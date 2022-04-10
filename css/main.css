@@ -130,6 +130,7 @@ body, html {
     background-size: cover;
   }
   .bg img{
+    opacity:0.8;
       width:100%;
       margin: 0 auto;
       justify-content: center;
@@ -140,9 +141,11 @@ body, html {
     text-align: center;
     color: white;
     font-size: 1.5em;
+    
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .centered {
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -150,9 +153,10 @@ body, html {
     
   }
   main h1{
-      font-weight: bold;
+    
+      font-weight:900;
       text-align: center;
-
+font-size: 2.9em;
   }
   main h2{
     margin:5%;
@@ -161,8 +165,9 @@ body, html {
 
   }
   main p{
-      font-size: 1em;
+      font-size: 1.2em;
       font-weight: bold;
+      line-height: 1.2em;
   }
   * {
     box-sizing: border-box;
@@ -252,7 +257,7 @@ font-size: 1em;
   }
   @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-.body-form { background:rgb(207, 220, 204); }
+.body-form { background:rgb(207, 220, 204); min-height: 300vh; }
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
@@ -316,6 +321,15 @@ section p{
   margin-left:5%;
 margin-top:10%;
 }
+.contact-img{
+width:60%;
+margin:0 auto;
+display:flex;
+justify-content: center;
+text-align: center;
+}
+.shadow {filter: drop-shadow(8px 8px 15px green);border-radius: 2%;}
+
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -330,4 +344,7 @@ margin-top:10%;
     .flex-item-right, .flex-item-left {
       flex: 100%;
     }
+    
+      
+    
   }
