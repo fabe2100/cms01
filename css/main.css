@@ -269,8 +269,8 @@ font-size: 1em;
   }
   @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-.body-form { background:rgb(207, 220, 204); min-height: 300vh; }
-form { max-width:420px; margin:50px auto; }
+.body-form { background:rgb(207, 220, 204); min-height: 350vh; }
+form { max-width:720px; margin:50px auto; }
 
 .feedback-input {
   color:rgb(29, 46, 29);
